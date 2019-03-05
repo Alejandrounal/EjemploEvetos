@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemploeventos;
+package Visual;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
@@ -22,7 +22,7 @@ import javafx.stage.Stage;
  *
  * @author Alejandro
  */
-public class EjemploEventos extends Application{
+public class Escena1 extends Application{
 
     @Override
     public void start(Stage stage) throws Exception {
