@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="Controladores.Escena3Controller">
+   <children>
+      <BorderPane layoutX="1.0" layoutY="7.0" prefHeight="391.0" prefWidth="593.0">
+         <top>
+            <Label prefHeight="62.0" prefWidth="486.0" text="                PET DAY" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </top>
+         <left>
+            <ImageView fitHeight="150.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../../Downloads/c68b6ee7cc83ac12a1d79a000757e185.jpg" />
+               </image>
+            </ImageView>
+         </left>
+         <center>
+            <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="223.0" text="Ingresar como dueño " textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </center>
+         <right>
+            <Button mnemonicParsing="false" text="Ingresa como no Dueño" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </right>
+         <bottom>
+            <Button mnemonicParsing="false" text="Registrate " textAlignment="CENTER" textOverrun="CLIP" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
